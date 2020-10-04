@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Button = ({title='Nothing'}) => (
+const Button = ({ title = 'Nothing' }) => (
     <div>
         <button className='button'>{title}</button>
 
